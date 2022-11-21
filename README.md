@@ -2,7 +2,7 @@
 	- Albert Einstein
 
 This is a demo showing how to apply follow key concepts and techniques  
-for live video streaming in Python programs with minimum code (none of   
+to live video streaming in Python programs with minimum code (none of   
 these five program is more than 50 lines).
 
 1. Client-Server programming with socket [Ref 1]
