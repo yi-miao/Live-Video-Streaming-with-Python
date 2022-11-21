@@ -26,7 +26,7 @@ Parameters harded coded in demo:
 host = 192.168.0.219   
 port = 5000  
 packet_size = 4096  
-window_size = 320x320 
+window_size = 320x320  
 
 ![Use Case 1 & 2](use_case1.jpg)  
 ![Use Case 3](use_case3.jpg)
