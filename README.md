@@ -1,8 +1,9 @@
 "Everything should be made as simple as possible, but not simpler."
 	- Albert Einstein
 
-This is a demo which shows how to apply follow core concepts and techniques 
-for live video streaming in Python programs with minimum code.
+This is a demo showing how to apply follow key concepts and techniques 
+for live video streaming in Python programs with minimum code (none of 
+these five program is more than 50 lines).
 
 1. Client-Server programming with socket [Ref 1]
 2. Data Transfer with Protocol (simple header-body structure) [Ref 2]
@@ -28,6 +29,7 @@ Step 2  http://host:port/ (url in brower)
 Parameters harded coded in demo:
 host = 192.168.0.219 
 port = 5000
+packet_size = 4096
 window_size = 320x320 
 
 ![Use Case 1](use_case1.jpg)
