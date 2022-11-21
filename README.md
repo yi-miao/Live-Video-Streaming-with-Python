@@ -1,6 +1,6 @@
 "Everything should be made as simple as possible, but not simpler." - Albert Einstein
 
-This is a demo showing how to apply follow key concepts and techniques  to live video streaming 
+This is a demo showing how to apply follow key concepts and techniques to live video streaming  
 in Python programs with minimum code (none of these five program is more than 50 lines).
 
 1. Client-Server programming with socket [Ref 1]
