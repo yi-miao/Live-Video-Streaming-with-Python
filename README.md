@@ -28,7 +28,7 @@ port = 5000
 packet_size = 4096  
 window_size = 320x320 
 
-![Use Case 1 & 2](use_case1.jpg)
+![Use Case 1 & 2](use_case1.jpg)  
 ![Use Case 3](use_case3.jpg)
 
 [Ref 1] https://www.digitalocean.com/community/tutorials/python-socket-programming-server-client  
