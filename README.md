@@ -1,6 +1,3 @@
-
-Live Video Streaming with Python
-
 "Everything should be made as simple as possible, but not simpler."
 	- Albert Einstein
 
@@ -35,7 +32,7 @@ window_size = 320x320
 
 ![Use Case 1](use_case1.jpg)
 
-[Ref 1] https://www.digitalocean.com/community/tutorials/python-socket-programming-server-client
-[Ref 2] https://stackoverflow.com/questions/48950962/screen-sharing-in-python
-[Ref 3] https://github.com/qijungu/screenshare
-[Ref 4] https://github.com/NakulLakhotia/Live-Streaming-using-OpenCV-Flask
+[Ref 1] https://www.digitalocean.com/community/tutorials/python-socket-programming-server-client  
+[Ref 2] https://stackoverflow.com/questions/48950962/screen-sharing-in-python  
+[Ref 3] https://github.com/qijungu/screenshare  
+[Ref 4] https://github.com/NakulLakhotia/Live-Streaming-using-OpenCV-Flask  
