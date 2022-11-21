@@ -1,8 +1,8 @@
 "Everything should be made as simple as possible, but not simpler."
 	- Albert Einstein
 
-This is a demo showing how to apply follow key concepts and techniques 
-for live video streaming in Python programs with minimum code (none of 
+This is a demo showing how to apply follow key concepts and techniques  
+for live video streaming in Python programs with minimum code (none of   
 these five program is more than 50 lines).
 
 1. Client-Server programming with socket [Ref 1]
@@ -11,8 +11,6 @@ these five program is more than 50 lines).
 4. Live Video with OpenCV (video capture and show at different sides)
 5. Asynchronous Programming (client side key-event handling)
 6. Web version with Flask (minimum code and html) [Ref 4]
-
-cd C:\Users\Deram\10_gaming\stream
 
 Use Case 1: Stream live video from client to server (TCP/IP)  
 Step 1: python client_to_server_s.py  
@@ -26,10 +24,10 @@ Use Case 3: Stream live video from server to browser (HTTP)
 Step 1: python app.py  
 Step 2  http://host:port/ (url in brower)
 
-Parameters harded coded in demo:
-host = 192.168.0.219 
-port = 5000
-packet_size = 4096
+Parameters harded coded in demo:  
+host = 192.168.0.219   
+port = 5000  
+packet_size = 4096  
 window_size = 320x320 
 
 ![Use Case 1](use_case1.jpg)
