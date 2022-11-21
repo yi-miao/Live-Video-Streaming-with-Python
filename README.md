@@ -20,7 +20,7 @@ Use Case 2: Stream live video from server to client (TCP/IP)
 Step 1: python server_to_client_s.py  
 Step 2: python server_to_client_c.py (ESC to terminate)
 
-Use Case 3: Stream live video from server to browser (HTTP)  
+Use Case 3: Stream live video from server to client (HTTP)  
 Step 1: python app.py  
 Step 2  http://host:port/ (url in brower)
 
