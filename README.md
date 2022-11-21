@@ -14,16 +14,16 @@ these five program is more than 50 lines).
 
 cd C:\Users\Deram\10_gaming\stream
 
-Use Case 1: Stream live video from client to server (TCP/IP)
-Step 1: python client_to_server_s.py
+Use Case 1: Stream live video from client to server (TCP/IP)  
+Step 1: python client_to_server_s.py  
 Step 2: python client_to_server_c.py (ESC to terminate)
 
-Use Case 2: Stream live video from server to client (TCP/IP)
-Step 1: python server_to_client_s.py
+Use Case 2: Stream live video from server to client (TCP/IP)  
+Step 1: python server_to_client_s.py  
 Step 2: python server_to_client_c.py (ESC to terminate)
 
-Use Case 3: Stream live video from server to browser (HTTP)
-Step 1: python app.py
+Use Case 3: Stream live video from server to browser (HTTP)  
+Step 1: python app.py  
 Step 2  http://host:port/ (url in brower)
 
 Parameters harded coded in demo:
