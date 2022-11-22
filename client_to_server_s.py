@@ -13,7 +13,7 @@ def Streaming(name, sock):
 	while True:
 		try:
 			while len(data) < payload_size:
-				packet = client.recv(packet_size)
+				packet = sock.recv(packet_size)
 				if not packet: break
 				data += packet
 
@@ -22,7 +22,7 @@ def Streaming(name, sock):
 			msg_size = struct.unpack("Q",packed_msg_size)[0]
 	
 			while len(data) < msg_size:
-				data += client.recv(4*1024)
+				data += sock.recv(4*1024)
 			frame_data = data[:msg_size]
 			data = data[msg_size:]
 
