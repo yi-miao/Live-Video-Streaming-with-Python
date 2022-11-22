@@ -7,7 +7,7 @@ to live video streaming in Python programs with minimum code
 
 1. Client-Server programming with socket [Ref 1]
 2. Data Transfer with Protocol (simple header-body structure) [Ref 2]
-3. Multi-thread (server side connection handling) [Ref 3]
+3. Multi-threading (server side connection handling) [Ref 3]
 4. Live Video with OpenCV (video capture and show at different sides)
 5. Asynchronous Programming (client side key-event handling)
 6. Web version with Flask (minimum code and html) [Ref 4]
