@@ -22,7 +22,7 @@ def Streaming(name, sock):
 			msg_size = struct.unpack("Q",packed_msg_size)[0]
 	
 			while len(data) < msg_size:
-				data += sock.recv(4*1024)
+				data += sock.recv(packet_size)
 			frame_data = data[:msg_size]
 			data = data[msg_size:]
 
